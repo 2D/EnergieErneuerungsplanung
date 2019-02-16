@@ -1,7 +1,10 @@
-# EnergieErneuerungsplanung
-## Algorithmic solution for valuing consequences in infrastructure maintenance
+# Energie-Erneuerungsplanung
+## Topic: Algorithmic solution for valuing consequences in infrastructure maintenance
 
 This project refflect this [challenge](https://hack.opendata.ch/project/341)
+
+### Challenge
+Maintenance of company assets of the low-voltage power distribution grid should be prioritized based on asset state and asset importance. While the state of the asset, typically the age since the last maintenance, is well-document, there is currently no measure of importance for these assets. One idea to value the importance of the assets is to analyze the amount of energy that is distributed by them. The amount of consumption is, of course, not an optimal measure for how damage is caused by an asset breakdown, or for what consumer would pay for an insurance against power interupts - if they were allowed to pay for it. This challenge, therefore, leave it open how, for the purpose of optimization, the importance will be measured.
 
 ### Provided Data
 The data that was provided consisted of
@@ -12,6 +15,7 @@ The data that was provided consisted of
 - Anonymized consumption data for the last four years
 
 ### Approach
+
 
 ### Data enrichment
 ![overview image](energy-hack-341-1.png.jpg)
