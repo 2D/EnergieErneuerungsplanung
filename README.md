@@ -18,6 +18,8 @@ The data that was provided consisted of
 
 
 ### Data enrichment
+![path following](energy-hackathon-341-0.png)
+
 ![overview image](energy-hack-341-1.png.jpg)
 
 ![detail image](energy-hackathon-341-2.png)
