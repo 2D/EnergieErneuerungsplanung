@@ -20,10 +20,17 @@ Since no importance measure was given, but consumption can be considered a first
 The second part of the project focussed on the optimization of the prioritization of maintenance work based on a flexible importance measure.
 
 ### Data enrichment
+The basic idea is to calculate the amount of energy that flows through transformer stations, distribution enclosures and connection lines by analyzing the topology of the network, starting from the transformer stations. This topology is constructed from the point and line coordinates. The quality of the coordinates is high enough to do this correctly.
 ![path following](energy-hackathon-341-0.png)
 
+After the topology of the network and the distrance from the transformer stations is created, the yearly power consumption is aggregated for each element of this network starting with the ones that are the furthest away from the transformer stations. The maximum depth of the network is 17 hops.
+
+The data is visualized in an open source software QGIS. This calculated data is added to the network elements such that the visualization can be enhanced by this data. The size of the points and the width of the lines now corresponds to the amount of energy that flows through this element.
+
+This is a larger view of the results.
 ![overview image](energy-hack-341-1.png.jpg)
 
+This is a more detailled view of the results.
 ![detail image](energy-hackathon-341-2.png)
 
 ### Optimization
