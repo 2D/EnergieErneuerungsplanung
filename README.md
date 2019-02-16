@@ -28,6 +28,7 @@ After the topology of the network and the distrance from the transformer station
 The data is visualized in an open source software QGIS. This calculated data is added to the network elements such that the visualization can be enhanced by this data. The size of the points and the width of the lines now corresponds to the amount of energy that flows through this element.
 
 This is a larger view of the results.
+(brown - transformer station, red - distribution enclosure, orange - consumer, red - connection line)
 ![overview image](energy-hack-341-1.png.jpg)
 
 This is a more detailled view of the results.
