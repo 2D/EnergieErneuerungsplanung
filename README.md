@@ -15,7 +15,9 @@ The data that was provided consisted of
 - Anonymized consumption data for the last four years
 
 ### Approach
+Since no importance measure was given, but consumption can be considered a first good proxy and consumption is only known per consumer but not per connection line, distribution enclosure or transformer station, the first part of the project was dedicated to enriching the data by calculating these figures.
 
+The second part of the project focussed on the optimization of the prioritization of maintenance work based on a flexible importance measure.
 
 ### Data enrichment
 ![path following](energy-hackathon-341-0.png)
